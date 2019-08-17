@@ -3,17 +3,21 @@
           xmlns:tools="http://schemas.android.com/tools" package="com.danielebachicchi.jetpackdownloadmanagerexample">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- If you want to use DownloadManager without with notification visibility
+    to DownloadManager.Request.VISIBILITY_HIDDEN you have to add this permission -->
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
 
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
+            android:authorities="com.mydomain.fileprovider"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:usesCleartextTraffic="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -21,12 +25,24 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".DownloadManagerReceiver">
+        <receiver android:name=".receiver.DownloadManagerReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
                 <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
             </intent-filter>
         </receiver>
+
+
+        <provider
+                android:name="androidx.core.content.FileProvider"
+                android:authorities="${applicationId}.provider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_provider_paths" />
+        </provider>
+
     </application>
 
 </manifest>

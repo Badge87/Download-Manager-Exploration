@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Jetpack Download Manager Example</string>
+    <string name="app_name">Download Manager Exploration</string>
     <string name="hint_url">Url to file to download</string>
     <string name="show_notification">Show download notification</string>
     <string name="start_download">Download!</string>
@@ -11,4 +11,11 @@
     <string name="allow_roaming">Allow download while roaming</string>
     <string name="allow_wifi">Allow download over Wifi</string>
     <string name="allow_mobile">Allow download over mobile network</string>
+    <string name="delete">Delete File</string>
+    <string name="open_file">Open File</string>
+    <string name="err_no_activity_found">Can\'t open file. Unknow format file.</string>
+    <string name="delete_all">Delete all files</string>
+    <string name="confirm_delete_all">%d files will be removed. Continue?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>
