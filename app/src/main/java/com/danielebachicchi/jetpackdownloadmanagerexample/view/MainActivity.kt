@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         // in a true app :)
         // In this case is ok because is a test app but remember, don't do in your REAL app
         // Only https call if you can!
-        private const val DEFAULT_DOWNLOAD_LINK = "http://ipv4.download.thinkbroadband.com/10MB.zip"
+        private const val DEFAULT_DOWNLOAD_LINK = "https://sample-videos.com/img/Sample-jpg-image-10mb.jpg"
     }
 
     private lateinit var manager:DownloadManager
@@ -145,6 +145,8 @@ class MainActivity : AppCompatActivity() {
 
                 }
                 .show()
+        }else if(item.itemId == R.id.action_info){
+            InfoDialogFragment.newInstance().show(supportFragmentManager,"info")
         }
         return false
     }

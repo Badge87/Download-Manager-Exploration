@@ -13,9 +13,20 @@
     <string name="allow_mobile">Allow download over mobile network</string>
     <string name="delete">Delete File</string>
     <string name="open_file">Open File</string>
-    <string name="err_no_activity_found">Can\'t open file. Unknow format file.</string>
+    <string name="err_no_activity_found">Can\'t open file. Unknown format file.</string>
     <string name="delete_all">Delete all files</string>
     <string name="confirm_delete_all">%d files will be removed. Continue?</string>
-    <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
+    <string name="info">Info</string>
+    <string name="created_by">Created by</string>
+
+    <string name="ok" translatable="false">OK</string>
+    <string name="author" translatable="false">Daniele Bachicchi</string>
+    <string name="link_facebook" translatable="false">https://www.facebook.com/danielebachicchipage</string>
+    <string name="link_twitter" translatable="false">https://twitter.com/dbachicchi</string>
+    <string name="link_linkedin" translatable="false">https://it.linkedin.com/in/daniele-bachicchi-81257023</string>
+    <string name="link_github" translatable="false">https://github.com/Badge87</string>
+    <string name="link_website" translatable="false">https://www.danielebachicchi.com/</string>
+    <string name="thanks">Thank you for your download!</string>
+    <string name="description_notification">Notification Description</string>
 </resources>
