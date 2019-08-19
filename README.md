@@ -1,12 +1,12 @@
 # Download Manager Exploration
 
 <p align="center">
-  <img src="">
+  <img  height="300" src="images/screenshot_01.png">
 </p>
 
 Download Manager Exploration is an app created to show the usage and the functionality of Android' component Download Manager.
 
-#Installation
+# Installation
 Just download the project and open it with Android Studio.
 
 # License
