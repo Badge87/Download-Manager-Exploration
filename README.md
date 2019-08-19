@@ -1,7 +1,8 @@
 # <img  width="30" height="30" src="app/src/main/ic_launcher-web.png">Download Manager Exploration
 
 <p align="center">
-  <img  height="300" src="images/screenshot_01.png">
+  <img  height="400" src="images/screenshot_01.png">
+   <img  height="400" src="images/screenshot_02.png">
 </p>
 
 Download Manager Exploration is an app created to show the usage and the functionality of Android' component Download Manager.
