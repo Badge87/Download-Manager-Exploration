@@ -1,16 +1,16 @@
 <resources>
     <string name="app_name">Download Manager Exploration</string>
     <string name="hint_url">Url to file to download</string>
-    <string name="show_notification">Show download notification</string>
+    <string name="show_notification">Show notification</string>
     <string name="start_download">Download!</string>
     <string name="require_charge">Require Charge</string>
     <string name="require_idle">Require Idle</string>
     <string name="title_notification">Notification Title</string>
     <string name="default_notification_title">Download Test</string>
-    <string name="default_notification_description">Downloading a file for testing Download Manager API</string>
-    <string name="allow_roaming">Allow download while roaming</string>
-    <string name="allow_wifi">Allow download over Wifi</string>
-    <string name="allow_mobile">Allow download over mobile network</string>
+    <string name="default_notification_description">Testing Download Manager API</string>
+    <string name="allow_roaming">Allow while roaming</string>
+    <string name="allow_wifi">Allow over Wifi</string>
+    <string name="allow_mobile">Allow over mobile network</string>
     <string name="delete">Delete File</string>
     <string name="open_file">Open File</string>
     <string name="err_no_activity_found">Can\'t open file. Unknown format file.</string>

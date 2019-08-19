@@ -48,6 +48,7 @@ class InfoDialogFragment: DialogFragment() {
 
             view.txt_version.text = version
 
+
             view.btn_facebook.setOnClickListener { openLink(getString(R.string.link_facebook)) }
             view.btn_github.setOnClickListener { openLink(getString(R.string.link_github)) }
             view.btn_linkedin.setOnClickListener { openLink(getString(R.string.link_linkedin)) }

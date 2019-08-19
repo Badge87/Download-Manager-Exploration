@@ -47,7 +47,6 @@
             android:orientation="horizontal"
             android:layout_width="0dp"
             android:gravity="center"
-
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp"
@@ -55,28 +54,35 @@
             android:id="@+id/linearLayout"
             app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/txt_link_website"
-    >
-        <ImageButton android:layout_width="64dp"
+            android:layout_marginRight="8dp" android:layout_marginEnd="8dp">
+        <ImageButton android:layout_width="0dp"
+                     android:layout_weight="0.25"
+                     android:layout_height="match_parent"
+                     style="@style/PixelArtImage"
+                     android:layout_margin="8dp"
+                     android:background="@drawable/ico_facebook_pp"
+                     android:id="@+id/btn_facebook"/>
+        <ImageButton android:layout_width="0dp"
+                     android:layout_weight="0.25"
                      android:layout_height="64dp"
                      android:layout_margin="8dp"
-                     android:id="@+id/btn_facebook"
-                     android:background="@drawable/ico_fb"/>
-        <ImageButton android:layout_width="64dp"
-                     android:layout_height="64dp"
-                     android:layout_margin="8dp"
+                     style="@style/PixelArtImage"
                      android:id="@+id/btn_twitter"
-                     android:background="@drawable/ico_twitter"/>
-        <ImageButton android:layout_width="64dp"
+                     android:background="@drawable/ico_twitter_pp"/>
+        <ImageButton android:layout_width="0dp"
+                     android:layout_weight="0.25"
                      android:layout_height="64dp"
                      android:layout_margin="8dp"
+                     style="@style/PixelArtImage"
                      android:id="@+id/btn_github"
-                     android:background="@drawable/ico_github"/>
-        <ImageButton android:layout_width="64dp"
+                     android:background="@drawable/ico_github_pp"/>
+        <ImageButton android:layout_width="0dp"
+                     android:layout_weight="0.25"
                      android:layout_height="64dp"
                      android:layout_margin="8dp"
-
+                     style="@style/PixelArtImage"
                      android:id="@+id/btn_linkedin"
-                     android:background="@drawable/ico_linkedin"/>
+                     android:background="@drawable/ico_linkedin_pp"/>
     </LinearLayout>
     <TextView
             android:text="@string/link_website"

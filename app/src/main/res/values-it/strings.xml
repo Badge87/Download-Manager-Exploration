@@ -2,16 +2,16 @@
 <resources>
     <string name="app_name">Download Manager Exploration</string>
     <string name="hint_url">Url del file da scaricare</string>
-    <string name="show_notification">Mostra notifica di download</string>
+    <string name="show_notification">Mostra notifica</string>
     <string name="start_download">Scarica!</string>
     <string name="require_charge">Richiede ricarica</string>
-    <string name="require_idle">Richiede telefono in stato inattivo</string>
+    <string name="require_idle">Richiede stato inattivo</string>
     <string name="title_notification">Titolo notifica</string>
     <string name="default_notification_title">Test di download</string>
-    <string name="default_notification_description">Download per testare Download Manager</string>
-    <string name="allow_roaming">Permetti download in roaming</string>
-    <string name="allow_wifi">Permetti download con wifi</string>
-    <string name="allow_mobile">Permetti download con rete mobile</string>
+    <string name="default_notification_description">Testiamo Download Manager</string>
+    <string name="allow_roaming">Permetti in roaming</string>
+    <string name="allow_wifi">Permetti con wifi</string>
+    <string name="allow_mobile">Permetti con rete mobile</string>
     <string name="delete">Cancella file</string>
     <string name="open_file">Apri file</string>
     <string name="err_no_activity_found">Impossibile aprire il file. Formato sconosciuto.</string>
@@ -20,4 +20,6 @@
     <string name="cancel">Cancella</string>
     <string name="info">Info</string>
     <string name="created_by">Creato da</string>
+    <string name="thanks">Grazie per il vostro download!</string>
+    <string name="description_notification">Descrizione Notifica</string>
 </resources>
